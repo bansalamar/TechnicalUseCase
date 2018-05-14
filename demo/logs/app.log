@@ -1,0 +1,33 @@
+2018-05-14 11:59:47:052|com.example.controller.DemoController.getEmp(11) req 
+2018-05-14 11:59:47:060|com.example.exception.ExceptionControllerAdvice.exception(com.example.exception.NoRecordFoundException: No Record Found) req 
+2018-05-14 11:59:47:061|com.example.exception.ExceptionControllerAdvice.exception() res com.example.model.ErrorResponse@6668541e
+2018-05-14 12:18:04:027|com.example.controller.DemoController.getEmp(11) req 
+2018-05-14 12:18:04:326|com.example.exception.ExceptionControllerAdvice.exception(com.example.exception.NoRecordFoundException: No Record Found) req 
+2018-05-14 12:18:04:348|com.example.exception.ExceptionControllerAdvice.exception() res com.example.model.ErrorResponse@3b70950a
+2018-05-14 12:18:07:247|com.example.controller.DemoController.getEmp(1) req 
+2018-05-14 12:18:07:307|com.example.controller.DemoController.getEmp() res com.example.model.Employee@4bdb9c1
+2018-05-14 12:43:58:200|com.example.controller.DemoController.getEmp(1) req 
+2018-05-14 12:43:58:465|com.example.controller.DemoController.getEmp() res com.example.model.Employee@6d85239c
+2018-05-14 12:44:01:979|com.example.controller.DemoController.getEmp(11) req 
+2018-05-14 12:44:01:992|com.example.exception.ExceptionControllerAdvice.exception(com.example.exception.NoRecordFoundException: No Record Found) req 
+2018-05-14 12:44:02:027|com.example.exception.ExceptionControllerAdvice.exception() res com.example.model.ErrorResponse@506096eb
+2018-05-14 16:37:08:951|com.example.controller.DemoController.getEmp(11) req 
+2018-05-14 16:37:09:437|com.example.exception.ExceptionControllerAdvice.exception(com.example.exception.NoRecordFoundException: No Record Found) req 
+2018-05-14 16:37:09:461|com.example.exception.ExceptionControllerAdvice.exception() res com.example.model.ErrorResponse@4705aa1
+2018-05-14 16:37:14:967|com.example.controller.DemoController.getEmp(1) req 
+2018-05-14 16:37:15:010|com.example.controller.DemoController.getEmp() res com.example.model.Employee@1b77d863
+2018-05-14 16:37:30:352|com.example.controller.DemoController.getEmp(1) req 
+2018-05-14 16:37:30:361|com.example.controller.DemoController.getEmp() res com.example.model.Employee@5134c61
+2018-05-14 16:39:07:844|com.example.exception.ExceptionControllerAdvice.exception(org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported) req 
+2018-05-14 16:39:07:867|com.example.exception.ExceptionControllerAdvice.exception() res com.example.model.ErrorResponse@76627c1
+2018-05-14 16:39:27:168|com.example.controller.DemoController.addEmp(com.example.model.Employee@673d99e) req 
+2018-05-14 16:39:27:325|com.example.controller.DemoController.addEmp() res com.example.model.Response@6131676
+2018-05-14 16:40:06:021|com.example.controller.DemoController.updateEmp(com.example.model.Employee@7677afa5) req 
+2018-05-14 16:40:06:052|com.example.controller.DemoController.updateEmp() res Updated Successfuly
+2018-05-14 16:40:19:610|com.example.controller.DemoController.updateEmp(com.example.model.Employee@73b0cf4d) req 
+2018-05-14 16:40:19:618|com.example.controller.DemoController.updateEmp() res Updated Successfuly
+2018-05-14 16:41:47:183|com.example.controller.DemoController.deleteEmp(2) req 
+2018-05-14 16:41:47:208|com.example.exception.ExceptionControllerAdvice.exception(org.springframework.dao.EmptyResultDataAccessException: No class com.example.model.Employee entity with id 2 exists!) req 
+2018-05-14 16:41:47:254|com.example.exception.ExceptionControllerAdvice.exception() res com.example.model.ErrorResponse@6d07b04b
+2018-05-14 16:42:16:175|com.example.controller.DemoController.deleteEmp(3) req 
+2018-05-14 16:42:16:217|com.example.controller.DemoController.deleteEmp() res Deleted Successfully
